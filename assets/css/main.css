@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+.invalid__text {
+    color: rgb(136, 2, 2);
+}
+
+.valid_text {
+    color: rgb(3, 104, 3);
+}
+
+.show__modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* само модальное окно с контентом */
+
+.modal-content {
+    background-color: #fff;
+    margin: 100px auto;
+    padding: 20px;
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.show__modal span {
+    cursor: pointer;
+}
+
+.show-modal {
+    display: block;
+}
+
+.show__modal .password_hash {
+    width: 100%;
+}
+
+.show-password {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    width: 100%;
+    margin: auto 20px;
+}

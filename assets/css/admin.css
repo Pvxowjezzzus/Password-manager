@@ -1,0 +1,79 @@
+.show__modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+/* само модальное окно с контентом */
+
+.modal-content {
+    background-color: #fff;
+    /* окно будет находится по центру по горизонтали и с отступом сверху в 100 px */
+    margin: 100px auto;
+    padding: 20px;
+    width: 50%;
+    font-size: 20px;
+    /* разнесем текст и кнопоку по краям окна */
+    display: flex;
+    justify-content: space-between;
+}
+
+.show__modal span {
+    cursor: pointer;
+}
+
+.show-modal {
+    display: block;
+}
+
+.show__modal .password_hash {
+    width: 100%;
+}
+
+.show-password {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    width: 100%;
+    margin: auto 20px;
+}
+
+.users__table,
+.org__table {
+    margin: 20px auto;
+    border: 1px #000 solid;
+}
+
+.users__table tr th,
+.users__table tr td,
+.org__table tr th,
+.org__table tr td {
+    padding: 10px;
+}
+
+.users__table thead {
+    border: 1px #888888 solid;
+}
+
+.organization {
+    border-bottom: 1px #000 solid;
+}
+
+.edit-organization__block {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.edit-form {
+    display: none;
+}
+
+.show__edit-form {
+    display: block;
+}
